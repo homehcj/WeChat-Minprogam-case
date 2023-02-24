@@ -1,0 +1,14 @@
+<!--pages/index23/index.wxml-->
+<view style="flex-direction: row;display: flex;">
+    <view style="background-color: green;">A</view>
+    <view style="background-color: red;">B</view>
+    <view style="background-color: blue;">C</view>
+</view>
+<!--换行的表示方法-->
+<text>\n</text>
+<!--比较上下的不同之处-->
+<view style="flex-direction: column;display: flex;">
+    <view style="background-color: green;">A</view>
+    <view style="background-color: red;">B</view>
+    <view style="background-color: blue;">C</view>
+</view>

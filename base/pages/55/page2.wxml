@@ -1,0 +1,5 @@
+<!--pages/55/page2.wxml-->
+<button id="1" bindtap="onclick">navigateback</button>
+<button id="2" bindtap="onclick">navigateback 2</button>
+<button id="3" bindtap="onclick">获取页面栈</button>
+<view wx:for="{{data}}">{{item.route}}</view>

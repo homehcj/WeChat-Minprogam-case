@@ -1,0 +1,25 @@
+<!--pages/37/index.wxml-->
+<view style="background-color: tomato;height: 750rpx;" bindtap="event1">
+    A
+    <view style="background-color: #70C160;width: 70%;height: 70%;" bindtap="event2">
+        B
+        <view style="background-color: white;width: 60%;height: 60%;" bindtap="event3">
+            C
+        </view>
+    </view>
+</view>
+
+<view style="margin-top:100rpx;background-color: tomato;height: 750rpx;" bindtap="event4">
+    D
+    <view style="background-color: #70C160;width: 70%;height: 70%;" catchtap="event5">
+        E阻止事件向上冒泡
+        <view style="background-color: white;width: 60%;height: 60%;" bindtap="event6">
+            F
+        </view>
+    </view>
+</view>
+
+<view style="margin-top:100rpx;background-color: #70C160;width: 560rpx;height: 560rpx;" 
+catchtap="event" id='www' data-a="wow" data-b="www">
+    传递参数
+</view>

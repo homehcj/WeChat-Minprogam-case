@@ -1,0 +1,28 @@
+.list{
+    margin: auto;
+    width: 600rpx;
+    margin-bottom: 60rpx;
+    background-color: wheat;
+    padding: 30rpx;
+    border-radius: 30rpx;
+}
+.list:first-child{
+    margin-top: 40rpx;
+}
+.list .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20rpx;
+}
+.list .main .item{
+    width: 30%;
+    text-align: center;
+}
+.red{
+    color: tomato;
+}
+.green{
+    color: #07C160;
+}

@@ -1,0 +1,44 @@
+var n=0,a=0,b=0
+Page({
+    data: {
+        button1:0,
+        button2:0,
+        button3:0,
+        eventButton:[0,0,0],
+        listButton:[0,0,0],
+        flg:true
+    },
+    event1(){
+        this.setData({button1:++this.data.button1})
+        //这样写不会自加，这样是先给n赋值n还是为原来的值
+        n=n++
+        console.log('n:'+n)
+        //这样写会自加，这样是先给n+1再赋值给n
+        a=++a
+        console.log('a:'+a)
+        //这样写会自加，这样是b自加1
+        b++
+        console.log('b:'+b)
+    },
+    event2(){
+        this.setData({button2:this.data.button2+1})       
+    },
+    event3(){
+        this.setData({button3:this.data.button3+1})
+    },
+    event4(e){
+        this.data.eventButton[e.currentTarget.id-1]=++this.data.eventButton[e.currentTarget.id-1]
+        this.setData({eventButton:this.data.eventButton})
+    },
+    listevent(e){
+        this.data.listButton[e.currentTarget.id]=this.data.listButton[e.currentTarget.id]+1
+        this.setData({listButton:this.data.listButton})
+    },
+    onclick(){
+        if(this.data.flg==true){
+            this.setData({
+                flg:false
+            })
+        }
+    }
+})

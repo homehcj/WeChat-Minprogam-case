@@ -1,0 +1,14 @@
+/* pages/41/index.wxss */
+view{
+    width: 70%;
+    height: 70%;
+}
+.red{
+    background-color:tomato;
+}
+.green{
+    background-color: #07C160;
+}
+.red2{
+    background-color:tomato;
+}

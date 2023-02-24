@@ -1,0 +1,5 @@
+<!--pages/44/index.wxml-->
+<view style="text-align: center;margin-top:350rpx">
+    <icon type="success" size="300rpx" color="#07C160"></icon>
+    <view style="font-size: xx-large;">注册成功</view>
+</view>

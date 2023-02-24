@@ -1,0 +1,22 @@
+<!--pages/4d/index.wxml-->
+<swiper current="{{dataindex}}" style="margin: 50rpx;height: 750rpx;" bindchange="swiper">
+    <swiper-item wx:for="{{data}}" wx:for-item="dataitem" wx:for-index="num">
+        <progress style="margin: 30rpx;" percent="{{100*(num/data.length)}}" show-info="{{true}}"></progress>
+        <view>{{num+1}}.{{dataitem.text}}</view>
+        <radio-group wx:if="{{flg[num]}}" bindchange="choose">
+            <radio value="{{index}}" style="margin: 20rpx;" wx:for="{{dataitem.choose}}">{{title[index]}}.{{item}}</radio>
+        </radio-group>
+        <view wx:if="{{!flg[num]}}">
+            <view style="margin: 20rpx;display: flex;flex-direction: row;" wx:for="{{dataitem.choose}}">
+                <icon type="cancel" wx:if="{{index==youchoose[num]}}"></icon>
+                <view wx:if="{{index==youchoose[num]}}">{{item}}</view>
+                <view wx:if="{{index!=youchoose[num]}}">{{title[index]}}.{{item}}</view>
+            </view>
+        </view>
+    </swiper-item>
+    <swiper-item style="text-align: center;">
+        <progress style="margin: 30rpx;" percent="100" show-info="{{true}}"></progress>
+        <icon type="success" size="60"></icon>
+        <view>您总共做对了{{point}}道题</view>
+    </swiper-item>
+</swiper>

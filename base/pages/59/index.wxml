@@ -1,0 +1,11 @@
+<!--pages/59/index.wxml-->
+<view style="margin: 50rpx;">
+    <input placeholder="请输入文本" bindinput="input" />
+    <canvas id="qrcode" bindlongtap="save" canvas-id="qrcode" style="margin: 0 auto;height: 650rpx;width: 650rpx"></canvas>
+</view>
+<view style="margin: 50rpx;">
+    <input placeholder="请输入文本程序将加密文本" bindinput="input2" />
+    <canvas id="qrcode2" bindlongtap="save" canvas-id="qrcode2" style="margin: 0 auto;height: 650rpx;width: 650rpx"></canvas>
+</view>
+<view style="color: tomato;">{{text}}</view>
+<button bindtap="click">扫一扫</button>

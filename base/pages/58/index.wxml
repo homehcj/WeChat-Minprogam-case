@@ -1,0 +1,6 @@
+<!--pages/58/index.wxml-->
+<view>{{text}}</view>
+<image wx:if="{{imgSrc}}" src="{{imgSrc}}"></image>
+<button bindtap="onclick">保存图片到手机相册</button>
+
+<button bindtap="onQR">扫一扫</button>

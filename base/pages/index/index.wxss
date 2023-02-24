@@ -1,0 +1,6 @@
+/* pages/index/index.wxss */
+button{
+    margin-top: 50rpx;
+    color: white;
+    background-color: #07C160;
+}

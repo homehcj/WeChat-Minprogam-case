@@ -1,0 +1,11 @@
+<!--pages/49/index.wxml-->
+<view style="margin: 50rpx 50rpx 50rpx 50rpx;" wx:for="{{show}}">
+    <view>{{index+1}}.{{item.text}}</view>
+    <checkbox-group id="{{index}}" bindchange="choose" style="display: flex;flex-direction: column;">
+        <checkbox value="{{chooseindex}}" style="margin-top: 20rpx;" wx:for="{{item.choose}}" wx:for-index="chooseindex" wx:for-item="chooseitem">
+            {{title[chooseindex]}}.{{chooseitem}}
+        </checkbox>
+    </checkbox-group>
+</view>
+
+<button bindtap="submit" style="background-color: #07C160;color: white;">提交</button>

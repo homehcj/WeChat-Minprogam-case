@@ -1,0 +1,7 @@
+<!--pages/53/index.wxml-->
+<view style="margin:50rpx;">
+    <view wx:for="{{title}}">
+    {{item}}:<text style="color:red;">{{data[item]}}</text>
+    </view>
+</view>
+<button bindtap="click">获取设备信息</button>

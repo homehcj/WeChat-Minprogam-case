@@ -1,0 +1,27 @@
+<!--pages/24/index.wxml-->
+<!--style-->
+<view style="flex-direction: row;display: flex;">
+    <view style="background-color: green;">A</view>
+    <view style="background-color: red;">B</view>
+    <view style="background-color: blue;">C</view>
+</view>
+<!--class-->
+<view class="title">
+    <view style="background-color: green;">A</view>
+    <view style="background-color: red;">B</view>
+    <view style="background-color: blue;">C</view>
+</view>
+<!--id-->
+<button id="redbutton">确定</button>
+<!--伪类-->
+<view class="father" bindtap="qq">
+    <text>第一个text子元素</text>
+    <text>第二个text子元素</text>
+    <text>第三个text子元素</text>
+    <text>第四个text子元素</text>
+    <view>第一个view子元素</view>
+    <view>第二个view子元素</view>
+    <view>第三个view子元素</view>
+    <view>第四个view子元素</view>
+</view>
+<switch>开关</switch>

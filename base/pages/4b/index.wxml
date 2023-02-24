@@ -1,0 +1,16 @@
+<!--pages/4b/index.wxml-->
+<input auto-focus placeholder="将会获取焦点"/>
+<input maxlength="10" placeholder="最大输入长度为10" />
+
+<view style="margin-left: 50rpx;">{{show}}</view>
+<input id="1" bindinput="input" placeholder="输入同步到view中"/>
+<input id="2" bindinput="input" placeholder="连续的两个1会变成2" />
+<!--需要手机预览或真机调试-->
+<input id="3" bindinput="input" placeholder="输入123自动收起键盘" />
+<!--需要手机预览或真机调试-->
+<input type="number" placeholder="这是一个数字输入框" />
+<input password type="text" placeholder="这是一个密码输入框" />
+<input type="digit" placeholder="带小数点的数字键盘"/>
+<input type="idcard" placeholder="身份证输入键盘" />
+
+<input placeholder-style="color:#F76260" placeholder="占位符字体是红色的" />

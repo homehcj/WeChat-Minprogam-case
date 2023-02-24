@@ -1,0 +1,6 @@
+<!--pages/46/index.wxml-->
+<view style="text-align: center;height:750rpx;">
+<text wx:for="{{showtext}}" style="{{(index+1)%2==0?'color:#07C160':'color:black'}}">{{item+"\n"}}</text>
+<button  bindtap="onClick" id="1" style="margin-top: 150rpx;bottom:auto;">添加文本</button>
+<button bindtap="onClick" id="2" style="margin-top: 40rpx;bottom:auto;">删除文本</button>
+</view>

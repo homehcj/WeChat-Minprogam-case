@@ -1,0 +1,42 @@
+/* pages/24/index.wxss */
+.title{
+    margin-top: 70rpx;
+    flex-direction: row;
+    display: flex;
+}
+.title view{
+    border: 10rpx yellow solid;
+}
+
+#redbutton{
+    background-color: tomato;
+}
+/*在两个margin-top的效果那个有效*/
+.father{
+    margin-top: 40rpx;
+    margin: auto;
+    margin-top: 40rpx;
+    width: 720rpx;
+    height: 720rpx;
+    background-color: gainsboro;
+}
+/*在子元素要对应才有效果*/
+.father text:first-child{
+    color: tomato;
+}
+.father text:nth-child(3){
+    color: gold;
+}
+.father view:nth-child(6){
+    color: gold;
+}
+.father view:last-child{
+    color: violet;
+}
+
+switch:active{
+    color:#07C160
+}
+.father:active{
+    color: white;
+}

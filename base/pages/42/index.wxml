@@ -1,0 +1,8 @@
+<!--pages/42/index.wxml-->
+<view style="font-size: xx-large;margin-top: 150rpx;font-weight: bolder;text-align: center;">XXX名单</view>
+<scroll-view style="margin: auto;height: 480rpx;width: 720rpx;" scroll-y="{{true}}" bindscrolltolower="bottom">
+    <view style="font-size:large;padding: 80rpx;text-align: center;" wx:for="{{showdata}}">
+        姓名：{{item}}
+    </view>
+</scroll-view>
+<view style="color: tomato;">tip：所有测试姓名均为网络随机生成</view>

@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view>我的第一个按钮：</view>
+<button>我是按钮</button>
+<view>我的第一个开关：</view>
+<switch>我是开关</switch>
+<view>我的第一个滑块：</view>
+<slider>我是滑块</slider>
+<!--比较上面和下面有什么不同-->
+<view>我的第一个输入框：</view>
+<input/>
+<!--比较上面和下面有什么不同-->
+<view>我的第一个输入框：</view>
+<input placeholder="我是输入框"/>
+<view>我插入的第一张图片：</view>
+<image src="../../images/22/t01d8e7fa4aba1d2048.jpg"></image>

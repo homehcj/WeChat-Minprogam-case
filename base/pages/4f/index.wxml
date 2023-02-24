@@ -1,0 +1,4 @@
+<!--pages/4f/index.wxml-->
+<view style="margin: 50rpx;">
+<switch bindchange="onclick">加载</switch>
+</view>

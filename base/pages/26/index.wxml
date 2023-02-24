@@ -1,0 +1,27 @@
+<!--内联样式-->
+<view style="color:gold">内联样式</view>
+<!--id选择器-->
+<view id="title2">id选择器</view>
+<!--类伪类选择器-->
+<view class="title">类伪类选择器</view>
+<!--元素选择器-->
+<view class="yuansu">
+    <view>元素选择器</view>
+</view>
+<!--继承-->
+<view style="color: tomato;">
+    <view>继承</view>index
+</view>
+<!--选择器权重-->
+<view style="color: tomato;">
+    <view class="yuansu">
+        <view class="title" id="title2" style="color:gold">style是最大的权重</view>
+        <view id="title2" class="title">id是第二大的权重</view>
+        <view class="title">class是第三大的权重</view>
+        <view>元素选择器是第四大权重</view>
+    </view>
+    <view>继承是第五大权重</view>
+</view>
+
+
+

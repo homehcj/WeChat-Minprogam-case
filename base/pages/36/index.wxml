@@ -1,0 +1,13 @@
+<!--pages/36/index.wxml-->
+<view wx:for="{{users}}" class="list">
+    <view class="main">
+        <view>姓名：{{item.username}}</view>
+        <view>学号：{{item.usernumber}}</view>
+    </view>
+    <view class="main">
+        <view class="item" wx:for="{{item.score}}" wx:for-index="point" wx:for-item="score" >
+            <view>第{{point+1}}考试成绩</view>
+            <view class="{{score<60?'red':'green'}}">{{score}}</view>
+        </view>
+    </view>
+</view>

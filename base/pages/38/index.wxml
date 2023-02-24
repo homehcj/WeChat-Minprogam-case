@@ -1,0 +1,15 @@
+<!--pages/38/index.wxml-->
+<!--单独的按钮-->
+<button bindtap="event1">单个按钮，该按钮按了{{button1}}次</button>
+<button bindtap="event2">单个按钮，该按钮按了{{button2}}次</button>
+<button bindtap="event3">单个按钮，该按钮按了{{button3}}次</button>
+<!--绑定同一事件，id，data-都行-->
+<button bindtap="event4" id="1">同一事件按钮，该按钮按了{{eventButton[0]}}次</button>
+<button bindtap="event4" id="2">同一事件按钮，该按钮按了{{eventButton[1]}}次</button>
+<button bindtap="event4" id="3">同一事件按钮，该按钮按了{{eventButton[2]}}次</button>
+<!--列表渲染button-->
+<block wx:for="{{listButton}}">
+    <button bindtap="listevent" id="{{index}}">列表渲染按钮，该按钮按了{{item}}次</button>
+</block>
+
+<button disabled="{{!flg}}" bindtap="onclick" style="bottom: 50rpx;">{{flg?'点击我':'您已经按过了'}}</button>

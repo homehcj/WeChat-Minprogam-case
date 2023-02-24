@@ -1,0 +1,16 @@
+<!--pages/43/index.wxml-->
+<swiper vertical="{{true}}" style="height:1200rpx ;">
+<swiper-item>
+<image src="../../images/43/11c4f24e06f640d3b781aa665ae1f119_th.png"></image>
+</swiper-item>
+<swiper-item>
+<image  src="../../images/43/dec8451bb54e4d649c7ab9a082186fa4_th.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="../../images/43/true.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="../../images/43/白色西装.png"></image>
+<button>立即体验</button>
+</swiper-item>
+</swiper>

@@ -1,0 +1,5 @@
+<!--pages/55/index.wxml-->
+<!--配置后关闭disabled-->
+<button id="1" disabled="{{true}}" bindtap="onclick">跳转tabbar</button>
+<button id="2" bindtap="onclick">跳转page1</button>
+

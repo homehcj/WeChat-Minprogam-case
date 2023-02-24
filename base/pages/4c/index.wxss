@@ -1,0 +1,4 @@
+/* pages/4c/index.wxss */
+picker{
+    margin: 50rpx;
+}

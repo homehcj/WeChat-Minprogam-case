@@ -1,0 +1,7 @@
+<!--pages/index/index.wxml-->
+<view style="margin: 50rpx;">
+    <view style="text-align: center;font-weight: bolder;font-size: xx-large;">引索</view>
+    <input style="margin-top: 50rpx;" bindinput="change" placeholder="请输入实例编号"/>
+    <view wx:if="{{flg}}" style="color: red;">没有该实例！！</view>
+    <button disabled="{{flg}}" bindtap="click">跳转</button>
+</view>

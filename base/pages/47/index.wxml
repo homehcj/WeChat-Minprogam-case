@@ -1,0 +1,2 @@
+<!--pages/47/index.wxml-->
+<image style="width: 100%;height: 1200rpx;" show-menu-by-longpress="{{true}}" src="../../images/47/白色西装.png"></image>

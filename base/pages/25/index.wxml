@@ -1,0 +1,18 @@
+<!--pages/25/index.wxml-->
+<view class="menu">
+    <view class="item">
+        <image src="../../images/25/act.png"></image>
+        <view>项目一</view>
+    </view>
+
+    <view class="item">
+        <image src="../../images/25/act2.png"></image>
+        <view>项目二</view>
+    </view>
+
+    <view class="item">
+        <image src="../../images/25/QR.png"></image>
+        <view>项目三</view>
+    </view>
+
+</view>

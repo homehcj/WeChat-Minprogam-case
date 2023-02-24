@@ -1,0 +1,12 @@
+<!--pages/3a/index.wxml-->
+<view>X^2+Y^2=19941994</view>
+<block wx:for="{{data}}">
+<view style="display: flex;flex-direction: row;align-items: center;margin-bottom: 20rpx;"> 
+    <view style="font-size: xx-large;margin-left: 40rpx;">{{'{'}}</view>
+    <view style="margin-top: 10rpx;margin-left: 8rpx;">
+        <view>X={{item.x}}</view>
+        <view>Y={{item.y}}</view>
+    </view>
+</view>
+</block>
+<button style="background-color: #07C160;" bindtap="onSolve">求正整数解</button>

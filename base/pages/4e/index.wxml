@@ -1,0 +1,5 @@
+<!--pages/4e/index.wxml-->
+<view style="margin: 50rpx;">
+<progress percent="{{a}}" show-info="{{true}}"></progress>
+<slider step="{{step}}" max="{{max}}" min="{{min}}" show-value="{{true}}" bindchanging="slider"></slider>
+</view>

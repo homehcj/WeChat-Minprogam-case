@@ -1,0 +1,4 @@
+<!--pages/48/index.wxml-->
+<button loading="{{flg}}" bindtap="onClick" style="color: white;background-color: #07C160;">
+{{flg?'上传中':'上传'}}
+</button>

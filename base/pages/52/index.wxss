@@ -1,0 +1,5 @@
+/* pages/52/index.wxss */
+button{
+    color: white;
+    background-color: #07C160;
+}

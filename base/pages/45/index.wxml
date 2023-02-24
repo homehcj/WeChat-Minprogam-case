@@ -1,0 +1,4 @@
+<!--pages/45/index.wxml-->
+<progress show-info="{{true}}" percent="{{progress}}"></progress>
+<view wx:if="{{flg==true}}">您花费了5s观察progress</view>
+<button style="color: #07C160;" bindtap="start">开始</button>

@@ -1,0 +1,6 @@
+<!--pages/52/index.wxml-->
+<view style="margin: 50rpx;">
+<view>{{text}}</view>
+<button disabled="{{flg1}}" bindtap="onclick">开始</button>
+<button disabled="{{flg}}" bindtap="reset">停止</button>
+</view>

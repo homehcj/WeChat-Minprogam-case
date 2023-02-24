@@ -1,0 +1,9 @@
+<!--pages/41/index.wxml-->
+<view style="height: 650rpx;">
+    <view hover-class="red" class="green">
+    </view>
+    <view hover-class="green" class="red">
+    </view>
+    <view hover-class="red2" class="green">
+    </view>
+</view>

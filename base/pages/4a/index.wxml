@@ -1,0 +1,13 @@
+<!--pages/4a/index.wxml-->
+<form bindsubmit="check" bindreset="reset">
+    <view style="margin: 50rpx 50rpx 50rpx 50rpx;" wx:for="{{show}}">
+        <view>{{index+1}}.{{item.text}}</view>
+        <checkbox-group name="{{index}}" style="display: flex;flex-direction: column;">
+            <checkbox value="{{chooseindex}}" style="margin-top: 20rpx;" wx:for="{{item.choose}}" wx:for-index="chooseindex" wx:for-item="chooseitem">
+                {{title[chooseindex]}}.{{chooseitem}}
+            </checkbox>
+        </checkbox-group>
+    </view>
+    <button style="background-color: #07C160;color: white;" form-type="submit">提交</button>
+    <button style="background-color: tomato;color: white;" form-type="reset">重置</button>
+</form>

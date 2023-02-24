@@ -1,0 +1,5 @@
+<!--pages/4g/index.wxml-->
+<view style="margin: 50rpx;">
+<view>{{text}}</view>
+<textarea style="background-color: ghostwhite;" bindinput="input"></textarea>
+</view>

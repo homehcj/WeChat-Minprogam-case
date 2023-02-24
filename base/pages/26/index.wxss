@@ -1,0 +1,13 @@
+/* pages/26/index.wxss */
+#title2{
+    color: green;
+}
+.title{
+    color: hotpink;
+}
+.yuansu .title{
+    color: hotpink;
+}
+.yuansu view{
+    color: blue;
+}

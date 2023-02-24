@@ -1,0 +1,10 @@
+<!--pages/56/index.wxml-->
+<button id="1" bindtap="click">api传递变量</button>
+<button id="2" bindtap="click">api传递多个变量</button>
+<button id="3" bindtap="click">api传递对象</button>
+<button id="4" bindtap="click">App传递变量</button>
+<button id="5" bindtap="click">App传递多个变量</button>
+<button id="6" bindtap="click">App传递对象</button>
+<button id="7" bindtap="click">缓存传递变量</button>
+<button id="8" bindtap="click">缓存传递多个变量</button>
+<button id="9" bindtap="click">缓存传递对象</button>

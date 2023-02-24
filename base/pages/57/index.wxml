@@ -1,0 +1,2 @@
+<!--pages/57/index.wxml-->
+<button bindtap="onclick">确定</button>

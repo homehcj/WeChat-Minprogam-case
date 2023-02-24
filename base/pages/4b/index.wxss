@@ -1,0 +1,6 @@
+/* pages/4b/index.wxss */
+input{
+    margin: 50rpx;
+    border: black 1rpx solid;
+    padding: 10rpx;
+}

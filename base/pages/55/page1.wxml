@@ -1,0 +1,4 @@
+<!--pages/55/page1.wxml-->
+<button id="1" bindtap="onclick">navigateTo page2</button>
+<button id="2" bindtap="onclick">redirectTo page2</button>
+<button id="3" bindtap="onclick">reLaunch page2</button>
