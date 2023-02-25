@@ -1,0 +1,16 @@
+<!--pages/index.wxml-->
+<input placeholder="请填入昵称" bindinput="input" id="1"/>
+
+<input placeholder="请填入性别" bindinput="input" id="2"/>
+
+<button bindtap="onclick">提交</button>
+
+<button bindtap="sreach">查找</button>
+<view>{{openid}}</view>
+
+
+
+<input placeholder="请填入id" bindinput="input" id="3"/>
+<button bindtap="update">改</button>
+
+<button bindtap="remove">del</button>
