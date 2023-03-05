@@ -1,0 +1,1 @@
+"D:\微信开发\微信web开发者工具\cli.bat" cloud functions deploy --e test01-6gikg2v72dcefdcb --n quickstartFunctions --r --project "C:\Users\Tom Huang\Desktop\WeChat-Minprogam-case\cloud" --report_first --report

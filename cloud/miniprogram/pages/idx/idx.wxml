@@ -1,0 +1,6 @@
+<!--pages/idx/idx.wxml-->
+<text>pages/idx/idx.wxml</text>
+
+<button bindtap="upload">上传图片</button>
+<image src="cloud://test01-6gikg2v72dcefdcb.7465-test01-6gikg2v72dcefdcb-1307859051/ FVs76Q75r71ge956c3bd5c6cf09f258f17c7f534b160.png"></image>
+<button bindtap="openfile">打开文档</button>
